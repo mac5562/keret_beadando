@@ -1,0 +1,15 @@
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping">
+    <class name="com.beadando.model.Bd" table="bd1">
+        <id name="id" type="string" column="id"/>
+        <property name="name" column="name" type="string"/>
+        <property name="releaseDate" column="release_date" type="LocalDate"/>
+        <property name="numOfDisc" column="numofdiscs" type="int"/>
+        <property name="distributor" column="distributor" type="string"/>
+        <property name="rate" column="rate" >
+            <type name="org.hibernate.type.EnumType">
+                <param name="enumClass">com.beadando.model.Rate</param>
+                <param name="useNamed">true</param>
+            </type>
+        </property>
+    </class>
+</hibernate-mapping>

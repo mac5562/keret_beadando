@@ -1,0 +1,20 @@
+2020-11-29 15:58:27, INFO, HHH000412: Hibernate ORM core version 5.4.22.Final
+2020-11-29 15:58:29, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-11-29 15:58:31, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-11-29 15:58:31, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/bds?serverTimezone=UTC]
+2020-11-29 15:58:31, INFO, HHH10001001: Connection properties: {user=root, password=****}
+2020-11-29 15:58:31, INFO, HHH10001003: Autocommit mode: false
+2020-11-29 15:58:31, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-11-29 15:58:32, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-11-29 15:58:33, INFO, HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@75a118e6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-11-29 15:58:34, INFO, HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-29 15:59:23, INFO, HHH000412: Hibernate ORM core version 5.4.22.Final
+2020-11-29 15:59:25, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-11-29 15:59:27, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-11-29 15:59:27, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/bds?serverTimezone=UTC]
+2020-11-29 15:59:27, INFO, HHH10001001: Connection properties: {user=root, password=****}
+2020-11-29 15:59:27, INFO, HHH10001003: Autocommit mode: false
+2020-11-29 15:59:27, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-11-29 15:59:28, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-11-29 15:59:29, INFO, HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7397c6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-11-29 15:59:30, INFO, HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
