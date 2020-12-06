@@ -105,7 +105,7 @@ public ModelAndView getBds(Model model){
     @GetMapping(value = "/removeBd/{id}")
     public String removeBd(@PathVariable String id) throws BdNotFound {
         service.removeBd(id);
-        return "bdList";
+        return "redirect:/bds";
     }
 
     @PostMapping(value="/byRate")
