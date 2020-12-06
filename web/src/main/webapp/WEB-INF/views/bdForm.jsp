@@ -6,7 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;encoding=UTF-8 charset=UTF-8" language="java"  %>
 <%@page isELIgnored="false"%>
 <html>
 <head>
