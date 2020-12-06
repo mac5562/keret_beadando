@@ -2,8 +2,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@page isELIgnored="false"%>
 <html>
+<head>
+    <title>Kezdőoldal</title>
+</head>
 <body>
-<h2>Hello World!</h2>
+<h2>Keretrendszer beadandó</h2>
 
 <c:url var="action" value="/bds"></c:url>
 <form action="${action}">
