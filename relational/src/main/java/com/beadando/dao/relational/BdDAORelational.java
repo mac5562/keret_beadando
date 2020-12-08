@@ -85,7 +85,7 @@ public class BdDAORelational implements BdDAO {
         return result;
     }
 
-    @Override
+   /* @Override
     public Collection<Bd> readAllBdOfDistributor(String distributor) {
         Session session=factory.openSession();
         String hql="From Bd Where distributor=:distributor";
@@ -93,5 +93,5 @@ public class BdDAORelational implements BdDAO {
         q.setParameter("distributor",distributor);
         Collection result =q.list();
         return result;
-    }
+    }*/
 }

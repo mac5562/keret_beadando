@@ -81,8 +81,8 @@ public class BdDAOJson implements BdDAO {
         return null;
     }
 
-    @Override
+   /* @Override
     public Collection<Bd> readAllBdOfDistributor(String distributor) {
         return null;
-    }
+    }*/
 }

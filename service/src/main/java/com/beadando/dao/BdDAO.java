@@ -14,5 +14,5 @@ public interface BdDAO {
     void modifyBd(String id,String name,LocalDate releasedate,int discnumb,Rate rate,String distributor) throws NameEmpty, ReleaseDateBad, BadDiscNumber, DistributorEmpty,BdNotFound;
     void removeBd(String id)throws BdNotFound;
     Collection<Bd>readAllBdOfRate(Rate rate);
-    Collection<Bd>readAllBdOfDistributor(String distributor);
+    //Collection<Bd>readAllBdOfDistributor(String distributor);
 }
